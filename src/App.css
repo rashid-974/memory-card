@@ -1,0 +1,12 @@
+.cards-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
