@@ -15,12 +15,11 @@ function App() {
         setCards(data.items);
       });
   }, []);
-  useEffect(() => {
-    console.log(cards);
-  }, [cards]);
+
   return (
     <div>
-      <h1>{score}</h1>
+      <h1>Memory Game</h1>
+      <h2>{score}</h2>
       <div className="cards-box">
         {cards.map((card) => (
           <img
